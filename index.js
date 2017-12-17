@@ -23,7 +23,7 @@ angular.module('internApp', ['ui.bootstrap', 'ngRoute'])
 	return authService;
 })
 .factory('apiService', ['authService', '$http', function(authService, $http) {
-	var baseURL = "http://qi.local";
+	var baseURL = "";
 
 	var apiService = {
 		//  No auth
